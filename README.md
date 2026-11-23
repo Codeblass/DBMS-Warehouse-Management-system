@@ -11,7 +11,7 @@ A relational database management system (DBMS) built in SQL to model end-to-end 
 ---
 
 ## Entity-Relationship Diagram
-![Entity-Relationship Diagram](docs/er-diagram.png)
+![Entity-Relationship Diagram](docs/erdiagram.png)
 
 ---
 
