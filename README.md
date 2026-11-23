@@ -54,3 +54,34 @@ warehouse-management-dbms/
 │   ├── 02_seed_data.sql
 │   └── 03_queries.sql
 └── README.md
+
+## Sample Query Outputs
+
+### Query 3: Products in Order `401` (`PRODUCT ⨝ CONTAINS`)
+| Name |
+| :--- |
+| Laptop |
+
+### Query 5: Customers Who Placed at Least One Order (`CUSTOMER ⨝ ORDER_TABLE`)
+| Name |
+| :--- |
+| Darshan |
+| Riya |
+| Neha |
+| Simran |
+| Priya |
+
+### Query 6: Current Location of Each Order (`ORDER_TABLE ⨝ SHIPS`)
+| Order_ID | Current_Location |
+| :---: | :--- |
+| 401 | Delhi |
+| 402 | Delhi |
+| 403 | Mumbai |
+| 404 | Mumbai |
+| 405 | Delhi |
+
+### Query 7: Tracking History for Shipment `501` (`TRACKING_UPDATE`)
+| Update_ID | Shipment_ID | Location | Timestamp | Status |
+| :---: | :---: | :--- | :--- | :--- |
+| 601 | 501 | Delhi | 2026-04-23 22:10:10 | Dispatched |
+| 602 | 501 | Roorkee | 2026-04-23 22:10:10 | Out for Delivery |
