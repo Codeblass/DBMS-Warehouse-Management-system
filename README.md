@@ -54,7 +54,7 @@ warehouse-management-dbms/
 │   ├── 02_seed_data.sql
 │   └── 03_queries.sql
 └── README.md
-~~~
+```
 
 ## Sample Query Outputs
 
